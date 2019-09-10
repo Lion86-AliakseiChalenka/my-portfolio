@@ -1,0 +1,39 @@
+.link img {
+    height: 40px;
+    width: 40px;
+}
+
+
+.link {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #20232a;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.link:hover {
+    cursor: pointer;
+    border: 5px solid #61dafb;
+}
+
+@media screen and (orientation:landscape) and (max-width: 600px) {
+    .link img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .link {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+
+
